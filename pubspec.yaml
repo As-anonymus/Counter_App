@@ -1,0 +1,27 @@
+name: counter
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: 0.5.0
+  auto_size_text: 0.3.0
+  cupertino_icons: ^0.1.2
+  flutter_launcher_icons: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  image_path: "icons/counterIcon4.png"
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
